@@ -1,0 +1,47 @@
+.cricimg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+td{
+    width: 150px;
+    height: 30px;
+} 
+tr{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+td:nth-of-type(3),td:nth-of-type(4),td:nth-of-type(5),td:nth-of-type(6){
+    width: 80px;
+}
+.tablechild1{
+    text-align: left;
+}
+
+.tablechild2{
+    display: flex;
+    justify-content: flex-end;
+    text-align:left;
+}
+.tablehead {
+    background-color: orangered;
+    height: 30px;
+    
+}
+.tablecric {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    background:white;
+    
+}
+body{
+    background-image: url('background-image1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1,h4{
+    font-family: Verdana;
+    text-shadow:blue;
+}
